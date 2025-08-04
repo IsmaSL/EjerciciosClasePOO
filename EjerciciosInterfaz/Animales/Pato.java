@@ -17,7 +17,7 @@ public class Pato extends Animal implements Oviparo, Nadador, Volador {
 
     @Override
     public void moverse() {
-        System.out.println(String.format("El pato %s se ha movido.", super.getNombre()));
+        System.out.println(this.nombre + " se mueve de muchas formas (caminando, volando, nadando).");
     }
 
     @Override
