@@ -1,0 +1,41 @@
+# Verificar la rama en la que estás
+
+git status
+
+# Crear una rama a partir de la rama actual
+# git branch mi-ramita
+# git checkout
+
+git checkout -b mi-ramita
+
+# Hacer un commit con los cambios si ya están listos
+
+git add .
+git commit -m "Mis experimentos locales"
+
+# Vuelve a la rama principal
+
+git checkout master
+
+# Bajar los nuevos cambios
+
+git pull
+
+###  ¿Y si ya habías hecho commits en main?
+
+# Crea y cambia a una nueva rama con esos commits:
+
+git checkout -b mi-ramita
+
+# Regresa a master y regrésalo al último commit que tu maestro subió
+
+git fetch origin			# Asegura de tener el último commit remoto
+
+git checkout master
+git reset --hard origin/master		# Esto borra los commits locales
+
+
+### Traer cambios de la rama remota a la rama local
+
+git checkout mi-ramita
+git merge master
