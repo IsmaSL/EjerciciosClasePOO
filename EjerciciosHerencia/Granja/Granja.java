@@ -1,3 +1,5 @@
+package EjerciciosHerencia.Granja;
+
 public class Granja {
     public static void main(String[] args) {
         System.out.println("\n--- Animales de la Granja ---");

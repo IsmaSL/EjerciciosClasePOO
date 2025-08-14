@@ -1,3 +1,5 @@
+package EjerciciosHerencia.Granja;
+
 public class Gato extends Animal {
     // Atributo privado
     private boolean tieneGarras;

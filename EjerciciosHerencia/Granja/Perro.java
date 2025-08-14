@@ -1,3 +1,5 @@
+package EjerciciosHerencia.Granja;
+
 public class Perro extends Animal{
     // Atributo privado (Solo son accesibles dentro de la misma clase)
     private String raza;

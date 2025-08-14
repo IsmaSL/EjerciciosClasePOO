@@ -1,3 +1,5 @@
+package EjerciciosHerencia.Granja;
+
 public class Animal {
     // Atributos (protegidos - #) -> Accesibles dentro de la misma clase,
     // paquete y por subclases.
